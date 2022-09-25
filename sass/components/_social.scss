@@ -1,0 +1,43 @@
+.social {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    &-items:hover .social-icon,
+    &-items:focus .social-icon {
+    fill: var(--bgr-mine-cl);
+    transition: var(--animation);
+    }
+
+    &__link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--bgr-mine-cl);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--icon-mine-cl);
+    transition: color var(--animation), background-color var(--animation);
+    }
+
+    &__link:hover,
+    &__link:focus {
+    background-color: var(--accent-cl);
+    color: var(--bgr-mine-cl);
+    }
+
+    &__icon {
+    fill: currentColor;
+    }
+
+    &__link--theme-light {
+            background-color: var(--icon-secondary-cl);
+            border-radius: 50%;
+    }
+    
+    &__icon--theme-light  {
+            fill: var(--bgr-mine-cl);
+    }
+}
+        

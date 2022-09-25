@@ -1,0 +1,25 @@
+.btn-two {
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--secondary-txt-cl);
+    background-color: var(--bgr-accent-cl);
+    border-radius: 4px;
+    border: none;
+    transition: color var(--animation), background-color var(--animation), box-shadow var(--animation);
+
+    &:hover,
+    &:focus {
+        color: var(--white-txt-cl);
+        background-color: var(--accent-cl);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+
+}
+

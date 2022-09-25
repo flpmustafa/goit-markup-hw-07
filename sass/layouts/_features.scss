@@ -1,0 +1,38 @@
+.features {
+    padding-top: 94px;
+
+    &__list {
+    display: flex;
+    gap: 30px;
+    }
+
+    &__subtitle {
+    color: var(--bgr-secondary-cl);
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+    &__text {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    }
+
+    &__icon {
+    width: 270px;
+    height: 120px;
+    background-color: var(--bgr-accent-cl);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
+
+    &__icon--position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

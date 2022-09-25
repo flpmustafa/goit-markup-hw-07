@@ -1,0 +1,31 @@
+/* 
+|----------|
+  Block 3
+|----------|
+*/
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+div {
+    margin: 0;
+}
+
+.link {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+address {
+    font-style: unset;
+}

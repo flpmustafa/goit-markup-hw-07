@@ -1,0 +1,45 @@
+
+
+.header {
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+    width: 100%;
+    border-bottom: #ececec solid 1px;
+    display: flex;
+    background-color: var(--bgr-mine-cl);
+
+    &__container {
+    display: flex;
+    }
+    &-list:not(:last-child) {
+    margin-right: 50px;
+    }
+
+    &__link-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: color var(--animation);
+}
+
+    &__link-icon:hover,
+    &__link-icon:focus {
+    color: var(--accent-cl);
+    }
+
+    &__icon {
+    fill: currentColor;
+    }
+  
+    &-contacts {
+    display: flex;
+    align-items: center;
+    color: var(--mine-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    transition: color var(--animation);
+    }
+}

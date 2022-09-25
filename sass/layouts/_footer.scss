@@ -1,0 +1,28 @@
+.footer {
+    padding: 60px 0;
+    background-color: var(--bgr-secondary-cl);
+
+    &__container {
+    display: flex;
+    align-items: baseline;
+    }
+
+    &__nav {
+    margin-right: 70px;
+    }
+
+    &__title {
+    display: block;
+    color: var(--bgr-mine-cl);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    }
+
+    &__social-block {
+    margin-right: auto;
+    }
+}

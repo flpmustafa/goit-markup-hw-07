@@ -1,0 +1,10 @@
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    &-items {
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+    letter-spacing: 0.03em;
+}
+}

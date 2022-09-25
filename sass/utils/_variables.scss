@@ -1,0 +1,28 @@
+/* 
+|----------|
+  Block 1
+|----------|
+*/
+:root {
+    /* font */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* color */
+    --mine-txt-cl: #757575;
+    --secondary-txt-cl: #212121;
+    --white-txt-cl: #ffffff;
+    --logo-txt-cl: #000000;
+    --footer-cont-txt-cl: rgba(255, 255, 255, 0.6);
+    --accent-cl: #2196f3;
+    --bgr-mine-cl: #ffffff;
+    --bgr-secondary-cl: #2f303a;
+    --bgr-accent-cl: #f5f4fa;
+    --portfolio-card-cl: #eeeeee;
+    --icon-mine-cl: #afb1b8;
+    --icon-secondary-cl: rgba(255, 255, 255, 0.1);
+    /* portfolio grid parameters */
+    --items: 3;
+    --indent: 30px;
+    /* animations */
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

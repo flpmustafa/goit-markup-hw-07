@@ -1,0 +1,49 @@
+.subscribe {
+    display: flex;
+    gap: 12px;
+
+    &__input {
+    display: block;
+    width: 358px;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.03em;
+    color: var(--white-txt-cl);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: transparent;
+    transition: background-color var(--animation), border var(--animation);
+    }
+
+    &__input:hover {
+    border: 1px solid var(--bgr-mine-cl);
+    cursor: pointer;
+    }
+
+    &__input:focus {
+    background-color: rgba(255, 255, 255, 0.06);
+    }
+
+    &__input:invalid {
+    outline-color: var(--icon-mine-cl);
+    }
+
+    &__input:valid {
+    outline-color: var(--accent-cl);
+    }
+
+    &__input::placeholder {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__icon {
+    display: block;
+    fill: var(--bgr-mine-cl);
+    }
+}

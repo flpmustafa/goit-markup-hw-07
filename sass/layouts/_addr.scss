@@ -1,0 +1,27 @@
+.addr {
+    &_item {
+    color: var(--footer-cont-txt-cl);
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    margin-bottom: 9px;
+    }
+
+    &_item:last-child {
+    margin: 0;
+    }
+
+    &-link {
+    transition: color var(--animation);
+    }
+
+    &-link:hover,
+    &-link:focus {
+    color: var(--accent-cl);
+    }
+
+    &__link--light-theme {
+    color: var(--white-txt-cl);
+   }
+
+}

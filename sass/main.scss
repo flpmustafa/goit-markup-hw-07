@@ -1,4 +1,33 @@
-/*body {
-    background-color: white;
-color: aqua;
-}*/
+// utils styles
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+@import './base/container';
+@import './base/card-set';
+
+
+// layout styles
+@import './layouts/header';
+@import './layouts/navigation';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/about';
+@import './layouts/command';
+@import './layouts/projects';
+@import './layouts/portfolio';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/addr';
+
+
+// components styles
+@import './components/btn';
+@import './components/btn-two';
+@import './components/logo';
+@import './components/social';
+@import './components/modal';
+@import './components/register-form';
+@import './components/subscribe';
